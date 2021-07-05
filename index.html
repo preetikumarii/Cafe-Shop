@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Café Day</title>
+	<title>Café Dayyyy</title>
 	
-	<link rel="stylesheet" type="text/css" href="cafeday.css">
+	<link rel="stylesheet" type="text/css" href="coffeeday.css">
 
 	<link href="https://fonts.googleapis.com/css2?family=Bangers&family=Dancing+Script:wght@700&family=Satisfy&display=swap" rel="stylesheet">
 
@@ -12,6 +12,7 @@
 </head>
 <body>
 	<header>
+		<div class="first-page">
 		<nav>
 			<div class="logo">
 				<img src="images/logo.png" alt="logo">
@@ -23,22 +24,50 @@
 				<a href="#">Contact</a>
 			</div>
 		</nav>
-		<main>		
-			<section>
-				<h1>HELLO!!, COFFEE LOVERS</h1>
-					<p>Coffee – The Most Important<br> Meal Of The Day.</p>
-			</section>
-
 			<div class="social_media">
 				<a href="#"><i class="fa fa-facebook fa-2x"></i></a><br>
 				<a href="#"><i class="fa fa-twitter fa-2x"></i></a><br>
 				<a href="#"><i class="fa fa-instagram fa-2x"></i></a><br>
 				<a href="#"><i class="fa fa-youtube fa-2x"></i></i></a>
 			</div>
-		</main>	
-	</header>
+		</div>
 	<section class="secondpage">
-		jndssh
+		<main>
+			<section>
+				<h1>HELLO!!, COFFEE LOVERS</h1>
+					<p>Coffee – The Most Important<br> Meal Of The Day.</p>
+			</section>
+		</main>
+			<div class="form">
+				<form action="#" onsubmit="return validation()">
+
+					<div class="form-inputs">
+						<label>Full Name:</label><br>
+						<input type="text" id="name" placeholder="Enter Name*">
+						<span></span>
+					</div>
+					<div class="form-inputs">
+						<label>Email Id:</label><br>
+						<input type="email" id="email" placeholder="Enter Email Address*">
+						<span></span>
+					</div>
+					<div class="form-inputs">
+						<label>Mobile No.:</label><br>
+						<input type="text" id="mobile" placeholder="Enter Mobile Number*">
+						<span></span>
+					</div>
+					<div class="form-inputs">
+						<label>Coffee Type:</label><br>
+						<input type="text" id="address" placeholder="Enter Coffee Type*">
+						<span></span>
+					</div>
+					<input type="submit" name="submit" value="Submit" autocomplete="off"
+					class="submit-btn">
+
+				</form>
+			</div>
 	</section>
+<!-- </main> -->
+</header>
 </body>
 </html>
