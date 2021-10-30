@@ -124,13 +124,14 @@ section p{
     position: absolute;
 }
 .form{
-	width: 100%;
+	width: 50%;
 	height: 30%;
 	position: relative;
 	z-index: 1;
 	align-items: center;
 	justify-content: center;
 	display: flex;
+	margin: auto;
 }
 .form-inputs{
 	width: auto;
@@ -146,8 +147,8 @@ section p{
 .form-inputs input{
 	width: 450px;
 	/* height: 30px; */
-	padding: 7px 5px 0px 0px ;
-	font-size: 17px;
+	padding: 8px 6px 0px 3px;
+    font-size: 19px;
 }
 .form .submit-btn{
 	width: 80px;
@@ -158,4 +159,10 @@ section p{
 }
 .form .submit-btn:hover{
 	cursor:pointer;
+}
+@media screen and (max-width: 770px) and (min-width: 570px){
+	section h1{
+		/* top: 40%;
+		left: 20%;
+	} */
 }
